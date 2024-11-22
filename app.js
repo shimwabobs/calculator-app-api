@@ -16,4 +16,4 @@ app.get("/",(req,res)=>{
     res.status(200).json({
         message:"It worke well"
     })
-}).listen(port,host,()=>{console.log("It works")});
+}).listen(port,host,()=>{console.log("It works well")});
